@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,156 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+div.container {
+    padding: 20px 50px;
+}
+
+/* Navigation section */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+div.img-container {
+    margin: 20px 0;
+}
+
+/* Top section  */
+section.top-content {
+    margin: 30px;
+}
+
+/* Colors of boxes were done in simplest ways */
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
+}
+
+/* About top content sections try to mimick the style instructor used for home */
+.about-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+section.about-top-content {
+    margin: 30px;
+    padding-bottom: 20px;
+}
+
+/* Middle contant of about page */
+section.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-box {
+    width: 48%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+button.about-btn {
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 10px;
+    background: white;
+    border-style: none;
+    border: black solid 1px;
+}
+
+/* Bottom section of about page */
+section.about-bottom-content {
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+@keyframes bounce {
+    50% {
+      transform: translateY(-10px);
+    }
+}
+  
+.logo-img:hover {
+    animation: bounce 0.5s forwards infinite ease-in normal;
+}
+
+/* Products header section  */
+.product-header-img {
+    width: 100%
+}
+
+/* Products middle section  */
+section.products-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-box {
+    width: 48%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.product-box img {
+    width: 400px;
+    height: 300px;
 }
